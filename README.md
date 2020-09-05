@@ -16,9 +16,9 @@ When you type `southlandpto.com` into your browser, it returns a page over SSL f
 
 This approach has three downsides:
 
-1. There needs to be a GitHub account that hosts this content.  This isn't overly complicated, but it's also not the kind of thing that most people know how to do.
-2. Because this is a client side redirect, you see `southlandpto.com` quickly and then it goes away.  This is acceptable, but not ideal.
-3. Once you land on `southlandpto.weebly.com`, you continue to see `weebly` in the URL.  This is not ideal, but the costs to address it are not currently acceptable.
+1. Once you land on `southlandpto.weebly.com`, you continue to see `weebly` in the URL.  This is not ideal, but the costs to address it are not currently acceptable.
+2. There needs to be a GitHub account that hosts this content.  This isn't overly complicated, but it's also not the kind of thing that most people know how to do.
+3. Because this is a client side redirect, you see `southlandpto.com` quickly and then it goes away.  This is acceptable, but not ideal.
 
 Should we choose to invest the money in making this process more streamlined, we'd pay weebly $72 per year for their lowest tier paid plan, which would let us use our own custom domain.  We would then register our domain with them and they would create an SSL certificate on our behalf (using Let's Encrypt).  In addition, we'd need to point our domain at the weebly IP addresses in GoDaddy or transfer our domain from GoDaddy to weebly to handle that for us.
 
